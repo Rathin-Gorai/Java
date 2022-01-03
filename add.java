@@ -10,5 +10,6 @@ public class add {
     second = sc.nextInt();
     int sum=first+second;
     System.out.println("Sum="+sum);
+    sc.close();
 }
 }

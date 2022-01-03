@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Matric {
     public static void main(String[] args)
     {
-        int arr[],arr1[],sum[];
+        int arr[10],arr1[10],sum[10];
         Scanner var = new Scanner(System.in);
         System.out.println("3x3 Matrix Operation\n Enter The first matrix values");
         for(int i=0;i<=9;i++) 
@@ -20,8 +20,9 @@ public class Matric {
         }
         for(int i=0;i<=9;i++) 
         {
-            System.out.println("sum of Element "+i+1+"="+sum);
+            System.out.println("sum of Element "+i+1+"="+sum[i]);
         }
+        var.close();
     }
     
 }
