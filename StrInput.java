@@ -9,5 +9,6 @@ class StrInput
 		System.out.print("Enter Roll no=");
 		int roll=sc.nextInt();
 		System.out.println("Name= "+name+"\nRoll= "+roll);
+		sc.close();
 	}
 }

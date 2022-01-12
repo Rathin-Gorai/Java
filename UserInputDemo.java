@@ -1,4 +1,4 @@
-import java.util.*;  
+import java.util.Scanner;  
 class UserInputDemo   
 {  
 	public static void main(String[] args)  
@@ -12,5 +12,6 @@ class UserInputDemo
 		int c= sc.nextInt();  
 		int d=a+b+c;  
 		System.out.println("Total= " +d);  
+		sc.close(); 
 	}  
 }  
