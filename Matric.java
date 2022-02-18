@@ -3,7 +3,9 @@ import java.util.Scanner;
 public class Matric {
     public static void main(String[] args)
     {
-        int arr[],arr1[],sum[];
+        int arr[] = new int[100];
+        int arr1[]= new int[100];
+        int sum[] = new int[100];
         Scanner var = new Scanner(System.in);
         System.out.println("3x3 Matrix Operation\n Enter The first matrix values");
         for(int i=0;i<=9;i++) 
