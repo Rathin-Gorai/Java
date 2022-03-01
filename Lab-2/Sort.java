@@ -17,19 +17,18 @@ public class Sort {
         }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the number");
+        System.out.print("Enter the number: ");
         int a = sc.nextInt();
         int arr[] = new int[a];
-        for(int i=0; i<a;i++){
-            System.out.println("Element"+arr[i+1]+": ");
-            arr[i] = sc.nextInt();
+        for(int i=0; i<arr.length; i++){
+            System.out.print("Element "+(i+1)+": ");
 
+            arr[i] = sc.nextInt();
         }
         bubbleSort(arr);
         for(int i=0; i<arr.length; i++){
             System.out.print(arr[i]+" ");
         }
         sc.close();
-    }
-    
+    }   
 }
