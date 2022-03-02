@@ -7,7 +7,7 @@ class Apple extends Fruits{
     String name;
     int weight;
     public void viewall(){
-        System.out.println(super.name+" "+name+" weight");
+        System.out.println(super.name+" "+weight);
     }
 
 }
