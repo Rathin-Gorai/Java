@@ -1,21 +1,30 @@
 //Write a program to demonstrate Dynamic method dispatch in Java.
 class Parente{
-    String name;
+    void display(){
+		System.out.println("This is Parents");
+	}
 }
 class Child extends Parente {
-    String Parente_name;
-
+    void display(){
+		System.out.println("This is Child");
+	}
 }
 class Son extends Child {
-    int age;
-
+    void display(){
+		System.out.println("This is Son");
+	}
 }
 class DynamicDispatch {
     public static void main(String args[]){
-        Child S1 = new Son();
-        S1.name= "Rahul";
-        S1.Parente_name="Mohit";
-        S1.age= 16;
-        System.out.println("Name "+S1.name+" Parents name: "+S1.Parente_name+" Age: "+A1.age);
+        Parente P = new Parente();
+		Child C = new Child();
+		Son S = new Son();
+		Parente Ref;
+		Ref = P;
+		Ref.display();
+		Ref = C;
+		Ref.display();
+		Ref = S;
+		Ref.display();
     }
 }
