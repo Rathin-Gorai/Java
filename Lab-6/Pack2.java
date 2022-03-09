@@ -1,4 +1,4 @@
-import Animals.*;
+import pack.*;
 public class Pack2{
     public static void main(String args[]){
         Animal A = new Animal();
