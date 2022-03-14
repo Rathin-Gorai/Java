@@ -1,9 +1,9 @@
 package pack;
 public class Animal{
     public void run(){
-        System.out.println("Running");
+        System.out.println("Animal is Running");
     }
     public void eat(){
-        System.out.println("Eating");
+        System.out.println("Animal is Eating");
     }
 }
